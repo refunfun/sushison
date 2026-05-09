@@ -1,12 +1,23 @@
 
 /* Logo principal si */
 
+@keyframes logoOppacity {
+    from {opacity: 0; transform: translateY(-20px);}
+    to {opacity: 100; transform: translateY(0px);}
+}
+
 .logo-principal {
     display: flex;
     justify-content: center;
+    padding: 25px;
 }
 
 .logo-principal img{
-    width: 35vw;
-    size: 35vw;
+    width: 900px;
+    max-width: 100%;
+    height: auto;
+    animation-name: logoOppacity;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+
 }
