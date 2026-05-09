@@ -1,0 +1,12 @@
+
+/* Logo principal si */
+
+.logo-principal {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-principal img{
+    width: 35vw;
+    size: 35vw;
+}
