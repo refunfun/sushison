@@ -6,6 +6,10 @@
 body {
     background-color: #101010;
     /*background: linear-gradient(to bottom, #000000, #101010, #101010, #101010);*/
+    background-image: url(./imagenes/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
