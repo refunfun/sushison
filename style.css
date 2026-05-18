@@ -44,7 +44,18 @@ body {
 }
 
 .sushis1 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(6, auto);
     padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: red;
+}
+
+.sushis1 div {
+    background-color: blue;
+    padding: 10px;
 }
 
 .sushi-section {
