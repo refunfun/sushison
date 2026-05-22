@@ -117,3 +117,23 @@ body {
 .lista-ingredientes div{
     font-size: 15px;
 }
+
+
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items:end
+}
+
+.redes img{
+    width: 75px;
+    height: 75px;
+}
+
+.redes img:hover {
+    width: 78px;
+    height: 78px;
+}
