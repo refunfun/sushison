@@ -8,14 +8,40 @@
 </head>
 <body>
 
+    <style>
+        @keyframes logoOppacity {
+            from {opacity: 0; transform: translateY(-20px);}
+            to {opacity: 100; transform: translateY(0px);}
+        }
+
+        .sushi-section {
+            animation-name: logoOppacity;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+        }
+
+        .about-us {
+            padding-left: 200px;
+            padding-right: 200px;   
+            
+            background-color: black;
+        }
+
+        .about-us p {
+            font-size: 30px;
+        }
+    </style>
+
     <div class="nav">
         <div>
-            <a href="./1.html">1</a>
-            <a href="./index.html">Inicio</a>
-            <a href="./2.html">2</a>
+            <a href="./1.html">Bebidas</a>
+            <a href="./index.html">Sushis</a>
+            <a href="./2.html">Sobre Nosotros</a>
         </div>
     </div>
 
+    <br>
+    <br>
     <br>
     <br>
 
@@ -28,7 +54,23 @@
     </div>
 
     <div class="sushi-section">
-        <img src="./imagenes/menu.svg" alt="menu">
+        <img src="./imagenes/sobre.svg" alt="sobre nosotros">
     </div>
+
+    <div class="about-us">
+        <p>En la actualidad, la comida japonesa ha ganado mucha popularidad en México, especialmente el sushi, ya que es una opción diferente, práctica y con gran variedad de sabores.</p>
+        <p>Por esta razón, se creó la empresa “Obregón Son Sushi”, ubicada en Ciudad Obregón, Sonora, México, con el objetivo de ofrecer sushi de buena calidad, con ingredientes frescos y a un precio accesible para la comunidad.</p>
+        <p>Nuestra empresa busca combinar el sabor tradicional del sushi con un toque local, adaptándolo a los gustos de las personas de la región. Además, queremos brindar un buen servicio y una experiencia agradable para nuestros clientes.</p>
+    </div>
+
+    <footer>
+        <img src="./imagenes/footer.svg" alt="desde japon a tu paladar">
+        <div class="redes">
+            <a href="https://www.ubereats.com/mx"><img src="./imagenes/redes/uber.png" alt="uber eats"></a>
+            <a href="https://www.rappi.com.mx/"><img src="./imagenes/redes/rappi.jpg" alt="rappi"></a>
+            <a href="https://www.didi-food.com/es-MX/food/"><img src="./imagenes/redes/didi.jpg" alt="didi"></a>
+        </div>
+    </footer>
+    <p>&copy; SushiSon 2026.</p>
 
 </body>
