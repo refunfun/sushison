@@ -12,6 +12,13 @@ body {
     background-position: center;*/
 }
 
+/* nav */
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Logo principal si */
 
